@@ -1,0 +1,16 @@
+{
+  "name": "pdf-merge",
+  "private": true,
+  "version": "1.0.0",
+  "type": "module",
+  "scripts": {
+    "vendor": "node scripts/vendor.mjs",
+    "serve": "python3 -m http.server 8765"
+  },
+  "devDependencies": {
+    "pdf-lib": "1.17.1",
+    "pdfjs-dist": "6.4.299",
+    "puppeteer-core": "^25.15.0",
+    "sortablejs": "1.15.7"
+  }
+}
